@@ -1,0 +1,82 @@
+/* Background untuk elemen dengan class .halketiga */
+.halketiga {
+    background-image: url(coklat.png);
+}
+
+/* Gaya untuk elemen body */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Gaya untuk kontainer quiz */
+.quiz-container {
+    width: 650px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: plum;
+}
+
+/* Gaya untuk kotak pertanyaan */
+.question-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Gaya untuk nomor soal */
+.question-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk teks pertanyaan */
+.question {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk kontainer opsi jawaban */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Gaya untuk tombol opsi jawaban */
+.option-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Gaya untuk efek hover pada tombol opsi jawaban */
+.option-btn:hover {
+    background-color: darkviolet; /* Menambahkan warna hover untuk tombol */
+}
+
+/* Gaya untuk umpan balik jawaban */
+.feedback {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    min-height: 20px;
+}

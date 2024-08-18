@@ -1,0 +1,198 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+.body {
+    background-image: url(latarwarna.jpg);
+}
+
+.selamat {
+    color: purple;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    z-index: 100;
+}
+
+.menu {
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.datang {
+    height: 35px;
+    color: purple;
+    padding-top: 160px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    text-align: center; /* Pastikan teks juga rata di tengah dalam blok */
+}
+
+.diquiz {
+    font-size: 20px;
+    color: purple;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    text-decoration: none;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    height: 20vh; /* Opsional, agar kontainer mengambil seluruh tinggi viewport */
+}
+
+.mulai-quiz {
+    color: purple;
+    background-color: white;
+    border: 2px solid purple;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 2rem 0;
+    display: inline-block;
+    cursor: pointer;
+    transition: .5s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mulai-quiz a {
+    color: inherit; /* Warna teks mengikuti warna tombol */
+    text-decoration: none; /* Menghapus garis bawah pada link */
+    display: block; /* Pastikan link mengambil seluruh ruang tombol */
+    width: 100%;
+    height: 100%;
+    line-height: 50px; /* Vertikal pusatkan teks */
+}
+
+.mulai-quiz:hover {
+    color: brown;
+	background-color: blanchedalmond;
+}
+
+.halkedua {
+    background-image: url(coklat.png);
+}
+
+.popup-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 350px;
+    background: plum;
+    border-radius: 6px;
+    padding: 20px;
+    z-index: 200;
+}
+
+.info-btn {
+    cursor: pointer;
+}
+
+.popup-info {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.popup-info h2 {
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+    line-height: 60px;
+}
+
+.popup-info .info {
+    display: inline-block;
+    font-size: 16px;
+    color: purple;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.popup-info .btn-group {
+    display: flex;
+    justify-content: center;
+	padding-top: 18px;
+}
+
+.popup-info .btn-group .info-btn {
+    color: purple;
+    width: 80px;
+    height: 38px;
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.popup-info .btn-group .info-btn:hover {
+	background-color: blanchedalmond;
+
+}
+
+.quiz-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.option-btn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #0056b3;
+}
+
+.feedback {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.kembali-awal {
+    border: 2px solid purple;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.kembali-awal .balik {
+    font: 20px;
+    color: black;
+}

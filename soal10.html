@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Cerdas Cermat</title>
+    <link rel="stylesheet" href="tambahan-style.css">
+    <link rel="icon" type="image/x-icon" href="faviconquiz.ico">
+</head>
+<body class="halketiga">
+
+    <div class="quiz-container">
+        <div class="question-container">
+            <p id="question">Properti CSS yang digunakan untuk mengatur jarak antar huruf adalah...</p>
+            <div class="options">
+                <button class="option-btn" onclick="checkAnswer('A')">A. letter-spacing</button>
+                <button class="option-btn" onclick="checkAnswer('B')">B. inline-height</button>
+                <button class="option-btn" onclick="checkAnswer('C')">C. text-indent</button>
+                <button class="option-btn" onclick="checkAnswer('D')">D. word-spacing</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+        </div>
+    </div>
+    
+        <div>
+            <button onclick="showAlert()">Kembali ke Beranda</button>
+        </div>
+
+
+    <script src="pertanyaan.js"></script>
+    
+</body>
+</html>

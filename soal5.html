@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Cerdas Cermat</title>
+    <link rel="stylesheet" href="tambahan-style.css">
+    <link rel="icon" type="image/x-icon" href="faviconquiz.ico">
+
+</head>
+
+<body class="halketiga">
+
+    <div class="quiz-container">
+        <div class="question-container">
+            <p id="question">Tag HTML untuk menyisipkan gambar adalah...</p>
+            <div class="options">
+                <button class="option-btn" onclick="checkAnswer('A')">A. img</button>
+                <button class="option-btn" onclick="checkAnswer('B')">B. background-color</button>
+                <button class="option-btn" onclick="checkAnswer('C')">C. font-size</button>
+                <button class="option-btn" onclick="checkAnswer('D')">D. text-align</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+        </div>
+    </div>
+
+    <script src="pertanyaan.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

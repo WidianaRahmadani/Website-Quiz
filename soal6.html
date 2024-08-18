@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Cerdas Cermat</title>
+    <link rel="stylesheet" href="tambahan-style.css">
+    <link rel="icon" type="image/x-icon" href="faviconquiz.ico">
+
+</head>
+
+<body class="halketiga">
+
+    <div class="quiz-container">
+        <div class="question-container">
+            <p id="question">Sintaks yang benar untuk membuat fungsi di JavaScript adalah...</p>
+            <div class="options">
+                <button class="option-btn" onclick="checkAnswer('A')">A. function: myFunction()</button>
+                <button class="option-btn" onclick="checkAnswer('B')">B. function = myFunction()</button>
+                <button class="option-btn" onclick="checkAnswer('C')">C. function myFunction()</button>
+                <button class="option-btn" onclick="checkAnswer('D')">D. function => myFunction()</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+        </div>
+    </div>
+
+    <script src="pertanyaan.js"></script>
+
+</body>
+</html>
